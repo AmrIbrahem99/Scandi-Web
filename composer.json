@@ -1,0 +1,14 @@
+{
+  "name": "scandiweb/project",
+  "description": "A PHP project with autoload",
+  "require": {
+    "ext-json": "*",
+    "ext-mysqli": "5.*",
+    "vlucas/phpdotenv": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ScandiWeb\\": "../Scandiweb"
+    }
+  }
+}
